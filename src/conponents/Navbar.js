@@ -88,6 +88,7 @@ class Navbar extends React.Component {
             </form>
           </div>
         </div>
+        
       </nav>
     );
   }
