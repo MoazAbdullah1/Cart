@@ -1,12 +1,27 @@
-import './App.css';
-import Navbar from './conponents/Navbar';
-
+import "./App.css";
+import Navbar from "./conponents/Navbar";
+import ProductList from "./conponents/ProductList";
+// import Footer from "./conponents/Footer";
 
 function App() {
+  const product = [
+    {
+      price: 350,
+      name: "Blue Shirt",
+      quantity: 3232,
+    },
+    {
+      price: 975,
+      name: "Polo Shirt",
+      quantity: 6787,
+    },
+  ];
+
   return (
     <>
-    <Navbar/>
-    
+      <Navbar />
+      <ProductList product={product} />
+      {/* <Footer /> */}
     </>
   );
 }
