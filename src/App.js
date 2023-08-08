@@ -4,7 +4,7 @@ import ProductList from "./conponents/ProductList";
 // import Footer from "./conponents/Footer";
 
 function App() {
-  const product = [
+  const productList = [
     {
       price: 350,
       name: "Blue Shirt",
@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <ProductList product={product} />
+      <ProductList productList={productList} />
       {/* <Footer /> */}
     </>
   );
