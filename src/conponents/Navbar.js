@@ -1,7 +1,7 @@
 import React from "react";
 
 class Navbar extends React.Component {
-  state = {};
+  // state = {};
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
