@@ -21,6 +21,7 @@ function App() {
   ];
 
   let [productList, setProductList] = useState(products);
+
   let [totalAmount, setTotalAmount] = useState(0);
 
   const incrementQuantity = (index) => {
@@ -44,12 +45,14 @@ function App() {
   };
 
   const resetQuantity = () => {
+
     let newProductList = [...productList];
     newProductList.map((products) => {
       products.quantity = 0;
     });
     setProductList(newProductList);
     setTotalAmount(0);
+    
   };
 
   const removeItem = (index) => {
