@@ -6,7 +6,9 @@ export default function Footer(props) {
       <button
         className="btn btn-danger col-2"
         onClick={() => {
+
           props.resetQuantity();
+          
         }}
       >
         Reset
