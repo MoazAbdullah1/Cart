@@ -7,11 +7,13 @@ export default function ProductList(props) {
       return (
         <Product
           product={product}
+
           key={i}
           incrementQuantity={props.incrementQuantity}
           index={i}
           decrementQuantity={props.decrementQuantity}
           removeItem={props.removeItem}
+          
         />
       );
     })

@@ -16,7 +16,9 @@ export default function Footer(props) {
       <div className="col-8 bg-dark text-white text-center">
         {props.totalAmount}
       </div>
+
       <button className="btn btn-primary col-2">Pay Now</button>
+      
     </div>
   );
 }
